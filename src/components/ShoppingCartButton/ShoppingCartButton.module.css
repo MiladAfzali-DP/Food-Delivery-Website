@@ -1,0 +1,23 @@
+.wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 24rem;
+  height: 100%;
+  background-color: #028643;
+  color: white;
+  border-radius: 0 0 0.75rem 0.75rem;
+}
+.wraper span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  /* padding: 0 0.5rem; */
+}
+.wraper span:last-child {
+  border-right: none;
+}
