@@ -1,0 +1,20 @@
+.topBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.4rem;
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 10%);
+  border-radius: 0 0 12px 12px;
+  padding-left: 2rem;
+}
+.topBanner p {
+  font-size: 15px;
+}
+.topBanner div:nth-of-type(2) {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.3rem;
+}
