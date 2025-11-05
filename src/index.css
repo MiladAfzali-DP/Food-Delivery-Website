@@ -1,7 +1,12 @@
 @font-face {
-  font-family: "Poppins";
+  font-family: "Poppins-regular";
   src: local("Poppins"),
     url("./assets/font/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: local("Poppins"),
+    url("./assets/font/Poppins-Bold.ttf") format("truetype");
 }
 
 *,
@@ -12,12 +17,30 @@
 }
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppins-regular";
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #fc8a06;
+  position: relative;
+}
+a::after {
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: all 250ms ease-in 20ms;
+}
+a:hover::after {
+  background-color: #fc8a06;
+}
+
+.text-bold {
+  font-family: "Poppins-bold";
 }
 
 input,
@@ -29,4 +52,10 @@ button {
 
 ul {
   list-style-type: none;
+}
+
+.active {
+  background-color: #fc8a06;
+  color: white !important;
+  border-radius: 7.5rem;
 }
