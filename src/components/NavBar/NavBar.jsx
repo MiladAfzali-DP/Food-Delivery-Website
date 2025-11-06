@@ -4,13 +4,18 @@ import { Link } from "react-router";
 import Button from "../ui/Button/Button";
 import Label from "../ui/Label/Label";
 export default function NavBar() {
+  const navData = [
+    { href: "/", text: "Home" },
+    { href: "/browse-menu", text: "Browse Menu" },
+    { href: "/special-offers", text: "Special Offers" },
+    { href: "/restaurants", text: "Restaurants" },
+    { href: "/track-order", text: "Track Order" },
+  ];
   return (
     <nav className={styles.navBar}>
-      <NavBarItem href="/">Home</NavBarItem>
-      <NavBarItem href="/browse-menu">Browse Menu</NavBarItem>
-      <NavBarItem href="/special-offers">Special Offers</NavBarItem>
-      <NavBarItem href="/restaurants">Restaurants</NavBarItem>
-      <NavBarItem href="/track-order">Track Order</NavBarItem>
+      {navData.map((data) => (
+        <NavBarItem href={data.href}>{data.text}</NavBarItem>
+      ))}
       <Button>
         <Link to="">
           <Label icon={<img src="/images/icon/user.svg" />}>Login/Signup</Label>
