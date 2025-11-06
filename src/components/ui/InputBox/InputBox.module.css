@@ -1,0 +1,28 @@
+.inputBox {
+  width: 25rem;
+  height: 3.5rem;
+  position: relative;
+  background-color: #fff;
+  border-radius: 7.5rem;
+}
+
+.inputBox input {
+  width: 71%;
+  height: 100%;
+  font-size: 1rem;
+  border-radius: 7.5rem;
+  padding: 0 3.2rem 0 1.75rem;
+  border: 1px solid rgba(0, 0, 0, 40%);
+}
+.inputBox button {
+  position: absolute;
+  top: 0;
+  right: -1rem;
+  width: 11rem;
+  height: 100%;
+  border-radius: 7.5rem;
+  background-color: #fc8a06;
+  color: white;
+  font-size: 1rem;
+  font-family: "Poppins-bold";
+}

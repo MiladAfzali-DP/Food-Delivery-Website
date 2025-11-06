@@ -1,3 +1,3 @@
-export default function Logo() {
-  return <img src="/images/icon/logo.svg" alt="" />;
+export default function Logo({ imgWidth = "" }) {
+  return <img src="/images/icon/logo.svg" style={{ width: imgWidth }} />;
 }
