@@ -1,0 +1,12 @@
+.item {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 7.5rem;
+  cursor: pointer;
+}
+
+.active {
+  border: 1.5px solid #fc8a06;
+  color: #fc8a06 !important;
+  font-weight: bold;
+}
