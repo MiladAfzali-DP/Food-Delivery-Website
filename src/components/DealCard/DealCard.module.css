@@ -1,0 +1,52 @@
+.dealCard {
+  cursor: pointer;
+  position: relative;
+  width: 31rem;
+  height: 20rem;
+  border-radius: 0.75rem;
+  background-image: linear-gradient(
+    to bottom left,
+    rgba(255, 255, 255, 0%),
+    rgba(3, 8, 31, 30%),
+    rgba(3, 8, 31, 89%)
+  );
+  overflow: hidden;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+
+.dealCard img {
+  position: absolute;
+  top: 0;
+  z-index: -10;
+}
+
+.percentOffer {
+  font-family: "Poppins-bold";
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  width: 5.5rem;
+  height: 4.1rem;
+  background-color: #03081f;
+  border-radius: 0 0 0.75rem 0.75rem;
+  color: white;
+}
+.content {
+  margin: 2rem;
+}
+.content p {
+  color: #fc8a06;
+  font-size: 18px;
+}
+.content h4 {
+  font-size: 24px;
+  font-family: "Poppins-bold";
+  color: white;
+}
