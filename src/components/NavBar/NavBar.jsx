@@ -13,8 +13,10 @@ export default function NavBar() {
   ];
   return (
     <nav className={styles.navBar}>
-      {navData.map((data) => (
-        <NavBarItem href={data.href}>{data.text}</NavBarItem>
+      {navData.map((data, i) => (
+        <NavBarItem href={data.href} key={i}>
+          {data.text}
+        </NavBarItem>
       ))}
       <Button>
         <Link to="">
