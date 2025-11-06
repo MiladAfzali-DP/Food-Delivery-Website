@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.6rem;
+}
+
+.header a {
+  color: inherit;
+}
+.header a::after {
+  content: none;
+}
