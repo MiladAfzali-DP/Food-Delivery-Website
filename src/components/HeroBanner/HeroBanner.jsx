@@ -37,6 +37,7 @@ export default function HomeBanner() {
               titleIcon={<img src={data.icon} />}
               titleText={data.title}
               description={data.description}
+              key={data.id}
             />
           ))}
         </div>
