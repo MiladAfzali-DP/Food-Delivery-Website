@@ -1,3 +1,6 @@
+.wraper {
+  margin-bottom: 2.6rem;
+}
 .header {
   display: flex;
   justify-content: space-between;

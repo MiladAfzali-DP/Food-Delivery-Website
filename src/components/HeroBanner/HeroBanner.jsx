@@ -1,5 +1,4 @@
 import styles from "./HeroBanner.module.css";
-import Container from "../ui/Container/Container";
 import HeroContent from "./HeroContent";
 import HeroImage from "./HeroImage";
 import OrderStatusCard from "./OrderStatusCard";
@@ -25,23 +24,21 @@ export default function HomeBanner() {
     },
   ];
   return (
-    <Container>
-      <div className={styles.wraper}>
-        <HeroContent />
-        <HeroImage />
-        <div className={styles.orderStatusWrpaer}>
-          {orderStatusCardData.map((data) => (
-            <OrderStatusCard
-              className={styles.orderCard}
-              cardNumber={data.id}
-              titleIcon={<img src={data.icon} />}
-              titleText={data.title}
-              description={data.description}
-              key={data.id}
-            />
-          ))}
-        </div>
+    <div className={styles.wraper}>
+      <HeroContent />
+      <HeroImage />
+      <div className={styles.orderStatusWrpaer}>
+        {orderStatusCardData.map((data) => (
+          <OrderStatusCard
+            className={styles.orderCard}
+            cardNumber={data.id}
+            titleIcon={<img src={data.icon} />}
+            titleText={data.title}
+            description={data.description}
+            key={data.id}
+          />
+        ))}
       </div>
-    </Container>
+    </div>
   );
 }
