@@ -1,0 +1,19 @@
+.wraper {
+  margin-bottom: 5rem;
+}
+.header {
+  margin-bottom: 2.6rem;
+}
+/* .cardWraper div {
+  background-color: #fc8a06 !important;
+} */
+.card {
+  background-color: #fc8a06;
+}
+
+.card h3 {
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins-bold";
+  margin-top: 0.8rem;
+}
