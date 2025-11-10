@@ -1,0 +1,22 @@
+.card {
+  width: 47.125rem;
+  height: 26.5625rem;
+  margin-bottom: 3.3125rem;
+}
+
+.card div {
+  margin: 0 0 2.4375rem 4.375rem;
+}
+.card h4 {
+  font-size: 2.75rem;
+}
+
+.cardButton {
+  margin-top: 1rem;
+  background-color: #fc8a06;
+  color: #fff;
+  padding: 1rem 3.5rem;
+  font-size: 1.125rem;
+  font-family: "Poppins-medium";
+  border-radius: 7.5rem;
+}
