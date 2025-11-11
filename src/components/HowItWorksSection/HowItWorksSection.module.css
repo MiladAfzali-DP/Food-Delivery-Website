@@ -1,0 +1,10 @@
+.howIsWorks {
+  width: 80.625rem;
+  height: 32.875rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.875rem;
+}
