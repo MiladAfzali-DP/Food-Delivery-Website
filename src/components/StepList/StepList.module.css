@@ -1,0 +1,19 @@
+.stepList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardsWraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.25rem;
+}
+
+.stepList > p {
+  margin-top: 2.0625rem;
+  width: 41rem;
+  text-align: center;
+}
