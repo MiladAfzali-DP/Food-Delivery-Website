@@ -1,0 +1,8 @@
+.faqList {
+  max-width: 32.8125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.25rem;
+}

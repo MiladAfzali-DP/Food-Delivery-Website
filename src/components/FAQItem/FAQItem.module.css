@@ -1,0 +1,12 @@
+.faqItem {
+  font-family: "Poppins-bold";
+  font-size: 1.125rem;
+  cursor: pointer;
+  padding: 1rem 5rem;
+  border-radius: 7.5rem;
+
+  text-align: center;
+}
+.active {
+  background-color: #fc8a06;
+}
